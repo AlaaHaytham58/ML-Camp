@@ -56,7 +56,7 @@ sns.histplot(x="age", hue="survived", data=titanic)
 plt.title("Survival by Age Distribution")
 plt.show()
 
-# ------------------ BOXPLOT---------------------
+# ----------------- BOXPLOT---------------------
 plt.figure(figsize=(6,4))
 sns.boxplot(x="sex", y="age", hue="survived", data=titanic)
 plt.title("Age Distribution by Sex and Survival")
