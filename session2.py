@@ -1,8 +1,5 @@
 """
-Name   courses_count   Gender city
-Alaa    20    Male  mansoura
-Sara         Female Giza
-Omar   25    Male   Cairo
+DAY 2 :PROCESSING DATA
 """
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
